@@ -1,9 +1,11 @@
 // client.cpp
+#include <iostream>
 
 import math;
 
 int main() {
    
-   add(2000, 20);
-   
+   int result = add(2000, 20);
+
+   std::cout << "add(2000, 20): " << result << '\n';
 }
